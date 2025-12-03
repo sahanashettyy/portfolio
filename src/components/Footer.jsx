@@ -1,6 +1,6 @@
 import React from 'react';
 import { motion } from 'framer-motion';
-import { FaHeart, FaGithub, FaLinkedin, FaTwitter } from 'react-icons/fa';
+import { FaHeart, FaGithub, FaLinkedin, FaTwitter, FaInstagram } from 'react-icons/fa';
 
 const Footer = () => {
   const currentYear = new Date().getFullYear();
@@ -14,9 +14,9 @@ const Footer = () => {
   ];
 
   const socialLinks = [
-    { icon: FaGithub, url: 'https://github.com/yourusername', label: 'GitHub' },
-    { icon: FaLinkedin, url: 'https://linkedin.com/in/yourusername', label: 'LinkedIn' },
-    { icon: FaTwitter, url: 'https://twitter.com/yourusername', label: 'Twitter' },
+    { icon: FaGithub, url: 'https://github.com/sahanashettyy', label: 'GitHub' },
+    { icon: FaLinkedin, url: 'https://www.linkedin.com/in/sahana-shetty-335a65337/', label: 'LinkedIn' },
+    { icon: FaInstagram, url: 'https://www.instagram.com/sahanaa_shettyy', label: 'Instagram' },
   ];
 
   return (
@@ -26,9 +26,9 @@ const Footer = () => {
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-8">
           {/* Brand */}
           <div>
-            <h3 className="text-2xl font-bold gradient-text mb-4">Ravindra</h3>
+            <h3 className="text-2xl font-bold gradient-text mb-4">Sahana Shetty</h3>
             <p className="text-gray-400 text-sm leading-relaxed">
-              Frontend Developer passionate about creating beautiful and functional web experiences.
+              Aspiring software developer who enjoys coding, solving problems, and exploring new technologies.
             </p>
           </div>
 
@@ -76,11 +76,11 @@ const Footer = () => {
         {/* Bottom Section */}
         <div className="flex flex-col md:flex-row justify-between items-center gap-4">
           <p className="text-gray-400 text-sm text-center md:text-left">
-            © {currentYear} Ravindra. All rights reserved.
+            © {currentYear} Sahana Shetty. All rights reserved.
           </p>
           
           <p className="text-gray-400 text-sm flex items-center gap-1">
-            Made with <FaHeart className="text-red-500 animate-pulse" /> using React & Tailwind
+            debugging life one bug at a time.
           </p>
         </div>
       </div>

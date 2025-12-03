@@ -11,34 +11,21 @@ const About = () => {
 
   // Skills data
   const skills = [
-    'React', 'JavaScript', 'TypeScript', 'Node.js', 
-    'TailwindCSS', 'HTML5', 'CSS3', 'Git',
-    'MongoDB', 'Express', 'REST APIs', 'Responsive Design'
+    'React', 'JavaScript','Node.js', 
+    'HTML5', 'CSS3', 'Git',
+    'Java','Python','C++','C'
   ];
 
   // Timeline data
   const timeline = [
     {
       icon: FaGraduationCap,
-      title: 'Bachelor\'s in Computer Science',
-      organization: 'University Name',
-      period: '2019 - 2023',
+      title: 'B.E in Information Science and Engineering',
+      organization: 'JSSATEB',
+      period: '2024 - 2028',
       type: 'education'
     },
-    {
-      icon: FaBriefcase,
-      title: 'Frontend Developer',
-      organization: 'Company Name',
-      period: '2023 - Present',
-      type: 'experience'
-    },
-    {
-      icon: FaBriefcase,
-      title: 'Web Development Intern',
-      organization: 'Startup Name',
-      period: '2022 - 2023',
-      type: 'experience'
-    }
+    
   ];
 
   return (

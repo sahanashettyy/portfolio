@@ -37,9 +37,9 @@ const Contact = () => {
     try {
       // EmailJS configuration - Replace with your actual values
       // Get these from https://www.emailjs.com/
-      const serviceId = 'YOUR_SERVICE_ID';
-      const templateId = 'YOUR_TEMPLATE_ID';
-      const publicKey = 'YOUR_PUBLIC_KEY';
+      const serviceId = 'service_m08zdwo';
+      const templateId = 'template_fbfzr0q';
+      const publicKey = '9gAU6uzcCnqeLU7vq';
 
       await emailjs.send(
         serviceId,
@@ -78,17 +78,15 @@ const Contact = () => {
 
   // Social links
   const socialLinks = [
-    { icon: FaGithub, url: 'https://github.com/yourusername', label: 'GitHub', color: 'hover:text-gray-400' },
-    { icon: FaLinkedin, url: 'https://linkedin.com/in/yourusername', label: 'LinkedIn', color: 'hover:text-blue-400' },
-    { icon: FaTwitter, url: 'https://twitter.com/yourusername', label: 'Twitter', color: 'hover:text-sky-400' },
-    { icon: FaInstagram, url: 'https://instagram.com/yourusername', label: 'Instagram', color: 'hover:text-pink-400' },
+    { icon: FaGithub, url: 'https://github.com/sahanashettyy', label: 'GitHub', color: 'hover:text-gray-400' },
+    { icon: FaLinkedin, url: 'https://www.linkedin.com/in/sahana-shetty-335a65337/', label: 'LinkedIn', color: 'hover:text-blue-400' },
+    { icon: FaInstagram, url: 'https://www.instagram.com/sahanaa_shettyy', label: 'Instagram', color: 'hover:text-pink-400' },
   ];
 
   // Contact info
   const contactInfo = [
-    { icon: FaEnvelope, text: 'your.email@example.com', href: 'mailto:your.email@example.com' },
-    { icon: FaPhone, text: '+1 (555) 123-4567', href: 'tel:+15551234567' },
-    { icon: FaMapMarkerAlt, text: 'Your City, Country', href: null },
+    { icon: FaEnvelope, text: 'shettysahana196@gmail.com', href: 'mailto:shettysahana196@gmail.com' },
+    { icon: FaMapMarkerAlt, text: 'Bengaluru, India', href: null },
   ];
 
   return (

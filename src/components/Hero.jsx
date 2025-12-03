@@ -2,6 +2,7 @@ import React from 'react';
 import { motion } from 'framer-motion';
 import { FaReact, FaNode, FaPython, FaDatabase, FaDownload, FaEnvelope } from 'react-icons/fa';
 import { SiJavascript, SiTailwindcss } from 'react-icons/si';
+import photoUrl from '../../poto.jpg';
 
 const Hero = () => {
   // Floating icons data
@@ -66,7 +67,7 @@ const Hero = () => {
               transition={{ delay: 0.3 }}
               className="text-5xl md:text-7xl font-bold mb-4"
             >
-              <span className="gradient-text">Ravindra</span>
+              <span className="gradient-text">Sahana Shetty</span>
             </motion.h1>
 
             {/* Subtitle */}
@@ -76,7 +77,7 @@ const Hero = () => {
               transition={{ delay: 0.4 }}
               className="text-2xl md:text-3xl font-semibold text-gray-300 mb-6"
             >
-              Frontend Developer | Web Enthusiast
+              Full Stack Developer | Web Enthusiast
             </motion.h2>
 
             {/* Description */}
@@ -86,8 +87,7 @@ const Hero = () => {
               transition={{ delay: 0.5 }}
               className="text-gray-400 text-lg mb-8 max-w-xl"
             >
-              I craft beautiful, responsive web experiences with modern technologies. 
-              Passionate about creating intuitive user interfaces and bringing ideas to life through code.
+              A passionate tech learner with a growing interest in AI, web development, and emerging technologies. I enjoy coding, debugging, and continuously improving my skills.
             </motion.p>
 
             {/* Buttons */}
@@ -141,11 +141,11 @@ const Hero = () => {
                 <div className="absolute inset-0 rounded-full border-4 border-primary opacity-50 animate-pulse"></div>
                 <div className="absolute inset-4 rounded-full border-2 border-secondary opacity-30"></div>
                 
-                {/* Placeholder Image */}
-                <div className="w-full h-full rounded-full bg-gradient-to-br from-primary/20 to-secondary/20 flex items-center justify-center overflow-hidden">
+              {/* Placeholder Image */}
+              <div className="w-full h-full rounded-full bg-gradient-to-br from-primary/20 to-secondary/20 flex items-center justify-center overflow-hidden">
                   <img
-                    src="https://via.placeholder.com/400x400/1e1e2e/0ea5e9?text=Your+Photo"
-                    alt="Ravindra"
+                    src={photoUrl}
+                    alt="Sahana Shetty"
                     className="w-full h-full object-cover rounded-full"
                   />
                 </div>
