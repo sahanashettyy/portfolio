@@ -2,6 +2,12 @@ import React, { useRef } from 'react';
 import { motion } from 'framer-motion';
 import { useInView } from 'react-intersection-observer';
 import { FaChevronLeft, FaChevronRight, FaAward } from 'react-icons/fa';
+import gdgCybersec from '../../GDG cybersec.png';
+import ncait from '../../NCAIT .jpg';
+import kshitijCA from '../../Kshitij CA.jpg';
+import kshitij from '../../Kshitij.jpg';
+import infosysPOP from '../../Infosys POP.jpg';
+import infosysCybersecurity from '../../Infosys Cybersecurity.jpg';
 
 const Certifications = () => {
   const [ref, inView] = useInView({
@@ -14,46 +20,46 @@ const Certifications = () => {
   // Certifications data
   const certifications = [
     {
-      title: 'Meta Frontend Developer Professional Certificate',
-      issuer: 'Meta (Facebook)',
-      date: '2023',
-      image: 'https://via.placeholder.com/400x300/1e1e2e/0ea5e9?text=Meta+Certificate',
-      credentialUrl: '#'
+      title: 'Gamified Cybersecurity Workshop',
+      issuer: 'GDG JSSATEB',
+      date: '2025',
+      image: gdgCybersec,
+      credentialUrl: gdgCybersec
     },
     {
-      title: 'React - The Complete Guide',
-      issuer: 'Udemy',
-      date: '2023',
-      image: 'https://via.placeholder.com/400x300/1e1e2e/8b5cf6?text=React+Course',
-      credentialUrl: '#'
+      title: 'National Conference on Advancements in Information Technology Volunteer',
+      issuer: 'NCAIT JSSATEB',
+      date: '2025',
+      image: ncait,
+      credentialUrl: ncait
     },
     {
-      title: 'JavaScript Algorithms and Data Structures',
-      issuer: 'freeCodeCamp',
-      date: '2022',
-      image: 'https://via.placeholder.com/400x300/1e1e2e/06b6d4?text=JavaScript+Cert',
-      credentialUrl: '#'
+      title: 'Kshitij Campus Ambassador',
+      issuer: 'IIT Kharagpur',
+      date: '2025',
+      image: kshitijCA,
+      credentialUrl: kshitijCA
     },
     {
-      title: 'Responsive Web Design',
-      issuer: 'freeCodeCamp',
-      date: '2022',
-      image: 'https://via.placeholder.com/400x300/1e1e2e/10b981?text=Web+Design',
-      credentialUrl: '#'
+      title: 'Kshitij Kascade Participation',
+      issuer: 'IIT Kharagpur',
+      date: '2025',
+      image: kshitij,
+      credentialUrl: kshitij
     },
     {
-      title: 'Node.js Backend Development',
-      issuer: 'Coursera',
-      date: '2023',
-      image: 'https://via.placeholder.com/400x300/1e1e2e/f59e0b?text=Node.js+Cert',
-      credentialUrl: '#'
+      title: 'Programming in C',
+      issuer: 'Infosys Spingboard',
+      date: '2025',
+      image: infosysPOP,
+      credentialUrl: 'https://verify.onwingspan.com/'
     },
     {
-      title: 'Advanced CSS and Sass',
-      issuer: 'Udemy',
-      date: '2022',
-      image: 'https://via.placeholder.com/400x300/1e1e2e/ec4899?text=CSS+Course',
-      credentialUrl: '#'
+      title: 'Cyber Security and Applied Ethical Hacking',
+      issuer: 'Infosys Springboard',
+      date: '2025',
+      image: infosysCybersecurity,
+      credentialUrl: 'https://verify.onwingspan.com/'
     },
   ];
 
@@ -174,20 +180,16 @@ const Certifications = () => {
           className="grid grid-cols-2 md:grid-cols-4 gap-6 mt-16"
         >
           <div className="glass-card p-6 text-center">
-            <div className="text-4xl font-bold gradient-text mb-2">6+</div>
+            <div className="text-4xl font-bold gradient-text mb-2">6</div>
             <div className="text-gray-400 text-sm">Certifications</div>
           </div>
           <div className="glass-card p-6 text-center">
-            <div className="text-4xl font-bold gradient-text mb-2">15+</div>
+            <div className="text-4xl font-bold gradient-text mb-2">1</div>
             <div className="text-gray-400 text-sm">Projects Completed</div>
           </div>
           <div className="glass-card p-6 text-center">
-            <div className="text-4xl font-bold gradient-text mb-2">2+</div>
-            <div className="text-gray-400 text-sm">Years Experience</div>
-          </div>
-          <div className="glass-card p-6 text-center">
-            <div className="text-4xl font-bold gradient-text mb-2">100%</div>
-            <div className="text-gray-400 text-sm">Client Satisfaction</div>
+            <div className="text-4xl font-bold gradient-text mb-2">0</div>
+            <div className="text-gray-400 text-sm">Experience</div>
           </div>
         </motion.div>
       </div>
