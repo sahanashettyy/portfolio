@@ -18,7 +18,7 @@ const Projects = () => {
       image: projectImage,
       tags: ['React', 'Framer Motion', 'TailwindCSS', 'Vite'],
       github: 'https://github.com/sahanashettyy/portfolio.git',
-      demo: 'https://demo-portfolio.com',
+      demo: 'https://sahana-shetty.vercel.app/',
       color: 'from-violet-500 to-purple-500'
     },
   ];
