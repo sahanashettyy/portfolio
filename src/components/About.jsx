@@ -56,18 +56,13 @@ const About = () => {
                 Get to know me!
               </h3>
               <p className="text-gray-300 leading-relaxed mb-6">
-                I'm a passionate Frontend Developer with a love for creating beautiful, 
-                functional, and user-friendly websites. With expertise in modern web technologies, 
-                I transform ideas into engaging digital experiences.
+                I am a passionate learner in the field of technology with a strong interest in solving real-world problems through innovative solutions. I have practical experience working with various programming languages and enjoy learning through hands-on exploration and projects. My interests include AI, web development, and emerging technologies, and I consistently work on improving my problem-solving and debugging skills. I enjoy collaborating with teams, participating in group projects, and engaging with tech communities where I can share ideas, learn from others, and grow together.
               </p>
               <p className="text-gray-300 leading-relaxed mb-6">
-                I specialize in building responsive web applications using React, JavaScript, 
-                and modern CSS frameworks. My goal is to write clean, maintainable code that 
-                delivers exceptional user experiences across all devices.
+                I am actively building a solid foundation in data structures, algorithms, and core software development principles. I continue to learn through online platforms, courses, workshops, and personal projects that challenge me to think creatively and logically. I am a fast learner, adaptable to new tools and concepts, and motivated to create impactful solutions that reflect growth and innovation.
               </p>
               <p className="text-gray-300 leading-relaxed">
-                When I'm not coding, you'll find me exploring new technologies, contributing 
-                to open-source projects, or sharing knowledge with the developer community.
+                My goal is to gain meaningful experience, contribute to real-world projects, and grow as a professional in a dynamic and evolving tech environment.
               </p>
             </div>
 
